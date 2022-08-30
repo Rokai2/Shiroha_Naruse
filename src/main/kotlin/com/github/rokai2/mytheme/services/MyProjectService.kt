@@ -1,7 +1,7 @@
-package org.jetbrains.plugins.template.services
+package com.github.rokai2.mytheme.services
 
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
+import com.github.rokai2.mytheme.MyBundle
 
 class MyProjectService(project: Project) {
 
