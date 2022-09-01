@@ -1,0 +1,268 @@
+{
+  "author": "Rokai",
+  "dark": true,
+  "name": "Shiroha Naruse",
+  "editorScheme": "/theme/mytheme.xml",
+  "background": {
+    "anchor": "center",
+    "fill": "plain",
+    "transparency": 50,
+    "image": "summer.png"
+  },
+  "colors": {
+    "background": "#1e1d55",
+    "foreground": "#ababf8",
+    "border": "#4a49a8",
+    "shadow": "#00000000",
+    "disables": "#6b898e",
+    "conflict": "#f8a8f0",
+    "conflictBackground": "#583f3f",
+    "added": "#025bff",
+    "addedBackground": "#023baa",
+    "deleted": "#fbdaff",
+    "deletedBackground": "#a17373",
+    "ignored": "#626979",
+    "ignoredBackground": "#484d58",
+    "modified": "#4a88ff",
+    "modifiedBackground": "#002f82",
+    "untracked": "#af8cf3",
+    "untrackedBackground": "#513c6f",
+    "submodule": "#9299ac",
+    "submoduleBackground": "#5f6172",
+    "comment": "#656f87",
+    "black": "#000000",
+    "white": "#FFFFFF",
+    "accent": "#6590f3",
+
+    "accentAlpha20": "#6590f320",
+    "accentAlpha40": "#6590f330",
+    "accentAlpha60": "#6590f360",
+    "lime": "#bfff00",
+    "limeAlhpa20": "#bfff0020",
+    "limeAlhpa40": "#bfff0040",
+    "limeAlhpa60": "#bfff0060",
+    "green": "#57d035",
+    "greenAlpha20": "#57d03520",
+    "greenAlpha40": "#57d03540",
+    "greenAlpha60": "#57d03560",
+    "blue": "#267ef9",
+    "blueAlpha20": "#267ef920",
+    "blueAlpha40": "#267ef940",
+    "blueAlpha60": "#267ef960",
+    "cyan": "#4eebf5",
+    "cyanAlpha20": "#4eebf520",
+    "cyanAlpha40": "#4eebf540",
+    "cyanAlpha60": "#4eebf560",
+    "purple": "#aa91ff",
+    "purpleAlpha20": "#aa91ff20",
+    "purpleAlpha40": "#aa91ff40",
+    "purpleAlpha60": "#aa91ff60",
+    "pink": "#f8a8f0",
+    "pinkAlpha20": "#f8a8f020",
+    "pinkAlpha40": "#f8a8f040",
+    "pinkAlpha60": "#f8a8f060",
+    "red": "#f6267f",
+    "redAlpha20": "#f6267f20",
+    "redAlpha40": "#f6267f40",
+    "redAlpha60": "#f6267f60",
+    "orange": "#ffa67a",
+    "orangeAlpha20": "#ffa67a20",
+    "orangeAlpha40": "#ffa67a40",
+    "orangeAlpha60": "#ffa67a60",
+    "yellow": "#f3f298",
+    "yellowAlpha20": "#f3f29820",
+    "yellowAlpha40": "#f3f29840",
+    "yellowAlpha60": "#f3f29860"
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#7A8187",
+      "Actions.Red": "#f6267f",
+      "Actions.Yellow": "#f3f298",
+      "Actions.Green": "#57d035",
+      "Actions.Blue": "#267ef9",
+      "Actions.GreyInline.Dark": "#6A7175",
+      "Objects.Grey": "#7A8187",
+      "Objects.RedStatus": "#f6267f",
+      "Objects.Red": "#f6267f",
+      "Objects.Pink": "#f8a8f0",
+      "Objects.Yellow": "#f3f298",
+      "Objects.Green": "#57d035",
+      "Objects.Blue": "#267ef9",
+      "Objects.Purple": "#aa91ff",
+      "Objects.BlackText": "#22253b",
+      "Objects.YellowDark": "#504f36",
+      "Objects.GreenAndroid": "#a4c639",
+
+      "Checkbox.Background.Default.Dark": "#1e1d55",
+      "Checkbox.Border.Default.Dark": "#1e1d55",
+      "Checkbox.Foreground.Selected.Dark": "#6590f3",
+      "Checkbox.Focus.Wide.Dark": "#1e1d55",
+      "Checkbox.Focus.Thin.Default.Dark": "#1e1d55",
+      "Checkbox.Focus.Thin.Selected.Dark": "#4eebf5",
+      "Checkbox.Background.Disabled.Dark": "#6A7175",
+      "Checkbox.Border.Disabled.Dark": "#6A7175",
+      "Checkbox.Foreground.Disabled.Dark": "#6A7175"
+    }
+  },
+
+
+  "ui": {
+    "*": {
+      "background": "background",
+      "infoForeground": "#aeade7",
+      "windowBorder": "border",
+      "foreground": "#ddddf8",
+      "Borders": {
+        "color": "border",
+        "ContrastBorderColor": "border"
+      },
+      "CompletionPopup": {
+        "background": "background"
+      },
+      "ComboBoxButton": {
+      },
+      "AccessibleJComponent": {
+        "background": "red"
+      },
+      "SettingsDialog": {
+        "background": "red"
+      },
+      "ComboPopup": {
+        "border": "1,1,1,1,253641"
+      },
+      "Component": {
+        "background": "background",
+        "errorFocusColor": "red",
+        "inactiveErrorFocusColor": "redAlpha60",
+        "warningFocusColor": "yellow",
+        "inactiveWarningFocusColor": "yellowAlpha60",
+        "iconColor": "foreground",
+        "hoverIconColor": "accent"
+      },
+      "Counter": {
+        "background": "background",
+        "foreground": "#ddddf8"
+      },
+      "DebuggerPopup": {
+        "borderColor": "border"
+      },
+      "DefaultTabs": {
+        "background": "background",
+        "hoverBackground": "#494971",
+        "underlineColor": "accent",
+        "inactiveUnderlineColor": "accentAlpha60",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "background",
+        "underlinedTabForeground": "#ddddf8"
+      },
+      "DragAndDrop": {
+        "areaForeground": "#ddddf8",
+        "areaBackground": "#101c21",
+        "areaBorderColor": "accentAlpha60"
+      },
+      "Editor": {
+        "background": "background",
+        "foreground": "foreground",
+        "shortcutForeground": "accent"
+      },
+      "EditorPane": {
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "PluginDetailsPageComponent": {
+        "background": "red",
+        "foreground": "red"
+      },
+      "EditorTabs": {
+        "background": "background",
+        "underlineColor": "accent",
+        "inactiveUnderlineColor": "accentAlpha60",
+        "underlineHeight": 2,
+        "underlinedTabForeground": "#ddddf8",
+        "underlinedTabBackground": "background",
+        "inactiveColoredFileBackground": "background"
+      },
+      "FileColor": {
+        "Yellow": "yellowAlpha20",
+        "Green": "greenAlpha20",
+        "Blue": "blueAlpha20",
+        "Violet": "purpleAlpha20",
+        "Orange": "orangeAlpha20",
+        "Rose": "pinkAlpha20"
+      },
+      "InplaceRefactoringPopup": {
+        "borderColor": "border"
+      },
+      "Link": {
+        "activeForeground": "accent",
+        "hoverForeground": "accent",
+        "pressedForeground": "accent",
+        "visitedForeground": "accent",
+        "secondaryForeground": "accent"
+      },
+      "List": {
+        "selectionBackground": "altBackground",
+        "selectionForeground": "#ddddf8"
+      },
+      "MemoryIndicator": {
+        "usedBackground": "blue",
+        "allocatedBackground": "purple"
+      },
+      "NavBar": {
+        "borderColor": "border"
+      },
+      "ToolBar": {
+        "background": "accent"
+      },
+      "ToolWindow.background": "background"
+    },
+    "ToolWindow.Header.inactiveBackground": "background",
+
+
+
+    "Tree": {
+      "foreground": "foreground",
+      "rowHeight": 24,
+      "modifiedItemForeground": "modified",
+      "errorForeground": "conflict",
+      "selectionForeground": "altForeground",
+      "selectionBackground": "altBackground",
+      "selectionInactiveBackground": "altBackground",
+      "hash": "border"
+    },
+
+    "ValidationTooltip": {
+      "errorBackground": "red",
+      "errorBorderColor": "red",
+      "warningBackground": "orange",
+      "warningBorderColor": "orange"
+    },
+
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "background",
+        "unmatchedForeground": "red"
+      },
+      "RefLabel": {
+        "backgroundBase": "blue",
+        "backgroundBrightness": 0.4
+      },
+      "FileHistory.Commit.selectedBranchBackground": "#0D0D40"
+    },
+
+
+        "WelcomeScreen": {
+          "Projects.selectionInactiveBackground": "background",
+          "separatorColor": "border"
+        },
+
+        "Window.border" : "1,1,1,1,253641"
+
+      }
+    }
+
+
+
+
