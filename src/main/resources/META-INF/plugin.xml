@@ -18,6 +18,8 @@
         <a href="https://github.com/Rokai2/Shiroha_Naruse/issues">Report an issue</a>  |  <a href="https://github.com/Rokai2/Shiroha_Naruse">On GitHub</a>
         <br/><br/><br/>
 
+        <img src="https://raw.githubusercontent.com/Rokai2/Shiroha_Naruse/main/master/screenshots/main_window.png" border="0" width="700" alt="Main window screenshot">
+        <br/>
     </description>
 
     <depends>com.intellij.modules.platform</depends>
